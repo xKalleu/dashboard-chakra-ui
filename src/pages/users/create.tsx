@@ -1,17 +1,17 @@
 import {
 	Box,
-	Flex,
-	Heading,
 	Button,
 	Divider,
-	VStack,
+	Flex,
+	Heading,
+	HStack,
 	SimpleGrid,
-	HStack
+	VStack
 } from '@chakra-ui/react';
 import Link from 'next/link';
 import React from 'react';
-import { Input } from '../../components/Form/Input';
 import { Header } from '../../components/Header';
+import { Input } from '../../components/Form/Input';
 import { Sidebar } from '../../components/Sidebar';
 
 import { SubmitHandler, useForm } from 'react-hook-form';
@@ -56,7 +56,6 @@ export default function CreateUser() {
 	return (
 		<Box>
 			<Header />
-
 			<Flex w="100%" my="6" maxWidth={1480} mx="auto" px="6">
 				<Sidebar />
 
