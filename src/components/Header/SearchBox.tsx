@@ -8,7 +8,6 @@ export function SearchBox() {
 
 	// Uncontrolled components
 	const searchInputRef = useRef<HTMLInputElement>(null);
-	console.log(searchInputRef.current.value);
 
 	return (
 		<Flex
